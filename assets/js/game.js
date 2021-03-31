@@ -83,4 +83,9 @@ var startGame = function() {
       break;
     }
   }
+  // play again
+  startGame();
 };
+
+// start the game when the page loads
+startGame();
